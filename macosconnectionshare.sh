@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-UPSTREAM_IFACE=${1:-en0}
-USB_IFACE='en109'
-USB_IP=${2:-192.168.0.1}
+UPSTREAM_IFACE=${1:-en0} # "en0" is my internet, yours probably will be the same, until you finish reading this. Jinx.
+USB_IFACE='en1' # change "en1" to your Pwnpal "ifconfig" in terminal to find out.
+USB_IP=${2:-192.168.0.1} # change IP to match Pwnpal. 10.0.0.1 = default. 
 
 for i in $(ifconfig -lu); do
   if ifconfig "$i" | grep -q "${USB_IP}" ; then USB_IFACE=$i; fi;

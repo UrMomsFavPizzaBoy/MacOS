@@ -1,6 +1,9 @@
 # MacOS
-macOS Connection 
-Sharing internet with macOS can be a pain if you got Windows brain. This guide assumes you already installed your fav Pwnflavor on your fav Pi. Doesn't seem to matter what install you use, the method to link hardware is the same.  
+macOS Connection - I would highly advise BT teathering or using ethernet & micro usb donngle to connect, as this method *should* work every time but it doesn't. Setting static MAC address sometimes seems to kill connection. You can do this every time you reboot, but you might want to delete the gadgets as they come to save sanity. Note: PWNKILL does not disconnect pi, sudo reboot will!
+
+Sharing internet with macOS can be a pain if you got Windows brain. 
+
+This guide assumes you already installed your fav Pwnflavor on your fav Pi. Doesn't seem to matter what install you use, the method to link hardware is the same.  
 
 Follow these steps to connect your Pwnpal to your macOS computer. Please note - just like tech, steps are probably allredy outdated & I haven't finished typing yet. 
 

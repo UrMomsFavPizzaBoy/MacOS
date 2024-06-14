@@ -11,7 +11,7 @@ TL;DNR - You need to share intnernet to RNDIS *first* and then you can update an
 
 Step 0: You already have your Pwnpal initial install complete! 
 
-Step 1: Plug Pwnpal intp computer, using proper working cord.
+Step 1: Plug Pwnpal into computer, using proper working cord.
 
 Step 2 : System Settings | Network
 
